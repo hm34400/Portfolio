@@ -1,3 +1,5 @@
+
+/*******************************Les titres************************************/
 h1{
   font-size: 40px;
   line-height: normal;
@@ -5,21 +7,26 @@ h1{
   font-family: 'Rock Salt', cursive;
   margin-right: 10px;
   padding-right: 10px;
-  color: black;
+  color: #c0a062;
+
 
 }
 h3{
   font-family: 'Monoton', cursive;
-  font-size:20px;
-  margin-bottom: 10px;
+  font-size:40px;
+  margin-bottom: 30px;
 }
+/****************************Article et Section*******************************/
 article{
-  font-family: 'Yellowtail', cursive;
+  font-size: 20px;
+  font-family: 'Great Vibes', cursive;
+  line-height :30px ;
 }
 section{
   padding: 10%;
 
 }
+/*******************************Les images***********************************/
 .imgdroite{
   float: right;
   padding-right: 40px;
@@ -30,35 +37,71 @@ section{
   padding-left: 40px;
   padding-top: 100px;
 }
+/***************************Les paragraphes*********************************/
 .para1{
-
-  color: #DBA901;
+  font-size: 20px;
+  color: #c0a062;
   margin-top: 20px;
   float:left;
   width:40%;
   padding-left: 45px;
 }
 .para2{
+  font-size: 20px;
   margin-top: 20px;
   float:right;
   width:40%;
   margin-right: 45px;
 }
 .para3{
+  font-size: 20px;
+  color:#c0a062;
   margin-top: 20px;
   float:left;
   width:40%;
   margin-left: 45px;
 }
 .para4{
+  font-size: 20px;
   margin-top: 20px;
   float:right;
   width:40%;
   margin-right: 45px;
 }
-.navigateur{
-  list-style: none;
+/******************************barre de navigateur****************************/
+.nav {
+  font-family: helvetica;
+  float: right;
+  padding: 20px 0 0 0;
 }
+
+li {
+  float: left;
+  list-style-type: none;
+  margin: 0 0 0 30px;
+}
+
+a {
+  padding: 10px 15px;
+  color: #c0a062;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: black;
+  background: #fff;
+  background: rgba(255,255,255, 0.2);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/*****************************************************************************/
 .logo{
   padding-top: 10px;
   text-align: center;
