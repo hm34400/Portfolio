@@ -1,14 +1,16 @@
 
 /*******************************Les titres************************************/
 h1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
   font-size: 40px;
   line-height: normal;
-  text-align: right;
+  text-align: center;
   font-family: 'Rock Salt', cursive;
-  margin-right: 10px;
-  padding-right: 10px;
+  margin-right: 195px;
+  padding-top: 10px;
   color: #c0a062;
-
 
 }
 h3{
@@ -19,7 +21,7 @@ h3{
 /****************************Article et Section*******************************/
 article{
   font-size: 20px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Fugaz One', cursive;
   line-height :30px ;
 }
 section{
@@ -131,3 +133,28 @@ a:hover, a:focus {
   padding-bottom: 55%;
   background-color: lightgreen;
 }
+/*************************Contact*********************************************/
+canvas {
+	position:relative;
+	z-index:0;
+	cursor:none;
+}
+.title {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 95%;
+	height: 1.4em;
+	z-index: 22;
+	text-align: center;
+	font-size: 7.3em;
+	pointer-events: none;
+	color: #fff;
+	opacity: 0.2;
+}
+	.title span {
+		font-family: 'arial';
+		font-size: 0.13em;
+		display: block;
+	}
