@@ -129,32 +129,15 @@ a:hover, a:focus {
   padding-bottom: 55%;
   background-color: #FFFFFF;
 }
-.page6{
-  padding-bottom: 55%;
-  background-color: lightgreen;
-}
+
 /*************************Contact*********************************************/
-canvas {
-	position:relative;
-	z-index:0;
-	cursor:none;
+.page6{
+  font-size: 20px;
 }
-.title {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	width: 95%;
-	height: 1.4em;
-	z-index: 22;
-	text-align: center;
-	font-size: 7.3em;
-	pointer-events: none;
-	color: #fff;
-	opacity: 0.2;
+#gradient
+{
+  width: 100%;
+  height: 655px;
+  padding: 0px;
+  margin: 0px;
 }
-	.title span {
-		font-family: 'arial';
-		font-size: 0.13em;
-		display: block;
-	}
