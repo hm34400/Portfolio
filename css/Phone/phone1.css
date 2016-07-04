@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) and (max-width:640px){/*fonction appliquer sur une resolution adapté pour mobile*/
+html{
+  padding: 0;
+  margin: 0;
+}
+section{
+  text-align: center;
+}
+
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {/*fonction appliquer sur une resolution de 1366x1024*/
+html{
+  background-color: green;
+}
+#conteneur{
+  padding-bottom: none;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+	font-size:40px;/*taille de police*/
+	}
+.imgdroite{
+  float: none;
+}
+.imggauche{
+  float:none;
+}
+.navigation	{
+	display:none;/*permet de cacher la barre de navigation*/
+}
+}

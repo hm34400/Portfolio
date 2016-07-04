@@ -1,40 +1,27 @@
-
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #161616;
+}
 /*******************************Les titres************************************/
 h3{
   font-family: 'Monoton', cursive;
-  font-size:40px;
+  font-size:50px;
   margin-bottom: 30px;
 }
 /****************************Article et Section*******************************/
 article{
   font-size: 20px;
-  font-family: 'Fugaz One', cursive;
+  font-family:font-family: 'Hammersmith One', sans-serif;
   line-height :30px ;
 }
 section{
   padding: 10%;
 }
-/*******************************Les images***********************************/
-.imgdroite{
-  float: right;
-  padding-right: 40px;
-  padding-top: 100px;
-}
-.imggauche{
-  float: left;
-  padding-left: 40px;
-  padding-top: 100px;
-}
-/***************************Les paragraphes*********************************/
 
-
-
-
-/******************************barre de navigateur****************************/
-.nav {
+/******************************barre de navigation****************************/
+.container {
   font-family: helvetica;
-  float: right;
-  padding: 20px 0 0 0;
 }
 
 li {
@@ -62,6 +49,7 @@ a:hover, a:focus {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  text-decoration: none;
 }
 /**************************Page de Garde**************************************/
 .logo{
@@ -69,82 +57,87 @@ a:hover, a:focus {
   text-align: center;
 }
 .page1{
-  padding-bottom: 55%;
-  background-image: url(images/dev.png);
+  background: url(images/dev.png);
   background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 55%;
 }
 h1{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-size: 40px;
-  line-height: normal;
   text-align: center;
+  line-height: 69px;
+  margin-top: 45px;
+  margin-left: 60px;
+  font-size: 25px;
   font-family: 'Rock Salt', cursive;
-  margin-right: 195px;
-  padding-top: 10px;
-  color: #c0a062;
+  color: #161616;
+}
+
+header{
+  height:100px;
 }
 /**************************Formation******************************************/
 .page2{
+  text-align: center;
   padding-bottom: 55%;
   background-color: #161616;
 }
-.para1{
+#para1{
   font-size: 20px;
   color: #c0a062;
   margin-top: 20px;
-  float:left;
-  width:40%;
   padding-left: 45px;
 }
 /*************************Experience******************************************/
 .page3{
-  background-image: url(images/imgfull.png);
+  text-align: center;
+  text-shadow: 0px 0px 8px black;
+  color:white;
+  background-image: url("./images/ex.png");
   background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 55%;
   background-color: #FFFFFF;
 }
-.para2{
+#para2{
+  color: #c0a062;
   font-size: 20px;
   margin-top: 20px;
-  float:right;
-  width:40%;
-  margin-right: 45px;
+  margin-right: 25px;
 }
 /*************************Qui suis je*****************************************/
 .page4{
+  text-align: center;
   padding-bottom: 55%;
   background-color: #161616;
 }
-.para3{
+#para3{
   font-size: 20px;
   color:#c0a062;
   margin-top: 20px;
-  float:left;
-  width:40%;
   margin-left: 45px;
 }
 /**************************Loisirs********************************************/
 .page5{
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  color:#161616;
+  background-image: url("./images/loi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 55%;
-  background-color: #FFFFFF;
 }
-.para4{
+#para4{
   font-size: 20px;
   margin-top: 20px;
-  float:right;
-  width:40%;
   margin-right: 45px;
 }
 /*************************Contact*********************************************/
 .page6{
+  color: #c0a062;
+  text-align: center;
+  background-color: #161616;
   font-size: 20px;
+  padding-bottom: 55%;
 }
-#gradient
-{
-  width: 100%;
-  height: 655px;
-  padding: 0px;
-  margin: 0px;
-}
+/**************************Reponsive*****************************************/
