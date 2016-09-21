@@ -6,8 +6,16 @@ html, body {
 /*******************************Les titres************************************/
 h3{
   font-family: 'Monoton', cursive;
-  font-size:50px;
+  font-size: 50px;
+  padding-bottom:10px;
 }
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 20px;
+}
+
 /****************************Article et Section*******************************/
 article{
   font-size: 20px;
@@ -59,11 +67,11 @@ a:hover, a:focus {
   background: url(images/dev.png);
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
 }
 h1{
   text-align: center;
-  line-height: 69px;
+  line-height: 50px;
   margin-top: 45px;
   margin-left: 60px;
   font-size: 25px;
@@ -74,19 +82,18 @@ h1{
 header{
   height:100px;
 }
-/**************************Formation******************************************/
+/**************************Qui suis-je******************************************/
 .page2{
   text-align: center;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
   background-color: #161616;
 }
 #para1{
   font-size: 20px;
   color: #c0a062;
-  margin-top: 20px;
-  padding-left: 45px;
+
 }
-/*************************Experience******************************************/
+/*************************Competence******************************************/
 .page3{
   text-align: center;
   text-shadow: 1px 1px 1px #080808;
@@ -94,26 +101,24 @@ header{
   background-image: url("./images/ex.png");
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
   background-color: #FFFFFF;
 }
 #para2{
   color: #c0a062;
   font-size: 20px;
-  margin-top: 20px;
-  margin-right: 25px;
+
 }
-/*************************Qui suis je*****************************************/
+/*************************Projets*****************************************/
 .page4{
   text-align: center;
-  padding-bottom: 55%;
+  padding-bottom: 50%;
   background-color: #161616;
 }
 #para3{
   font-size: 20px;
   color:#c0a062;
-  margin-top: 20px;
-  margin-left: 45px;
+
 }
 /**************************Loisirs********************************************/
 .page5{
@@ -124,23 +129,27 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
+  img{
+      width: 50px;
+      height: 50px;
+  }
 }
 #para4{
   font-size: 20px;
-  margin-top: 20px;
-  margin-right: 45px;
+
 }
 /*************************Contact*********************************************/
 .page6{
+  
   color: #c0a062;
   text-align: center;
   background-color: #161616;
   font-size: 20px;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
 }
 /**************************Reponsive*****************************************/
-@media screen and (min-width: 320px) and (max-width:640px){
+@media screen and (min-width: 320px) and (max-width:940px){
 html{
   margin: auto;
   padding: inherit;
@@ -155,13 +164,26 @@ nav{
   background: none;
   background-color: #F0EDCA;
 }
+#para2{
+    color: black;
+}
 .page3{
   background: none;
   background-color: #F0EDCA;
   color: #000;
+  text-align: center;
 }
 .page5{
   background: none;
   background-color: #F0EDCA;
   color: #000;
+  
 }
+.mobile {
+    width: 100%;
+    height: auto;
+}
+.page1,.page2,.page3,.page4,.page5,.page6{
+    padding-bottom: 100%;
+}
+
